@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head id="head">
+        <title>Nintendo Game Boy Remastered - Products</title>
+        <meta name="description" content="Products">
+        <!-- added jQuery Library-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- added js -->
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+    <!--added header-->
+    <header id="header"></header>
+    <main>
+
+        <!--added title to console section-->
+        <div class="product_title"><h3>Console</h3></div>
+        <section class="console" id="console">
+            <!--console section split into two columns left and right-->
+            <!--left side-->
+            <div class="console_left">
+                <img src="./img/gameboy.jpg" alt="image of a Game Boy">
+                <p class="price">$199.99</p>
+                <!--added <a> as a buy button-->
+                <a href="#">Buy</a>
+            </div>
+            <!--right side product specification-->
+            <div class="console_right">
+                <p>Specification</p>
+                <p>Dimensions: 148 x 90 x 32 mm</p>
+                <p>CPU: Quad-core 2.5 GHz Cortex-A72 & quad-core 1.8 GHz Cortex-A53</p>
+                <p>RAM: 4 GB</p>
+                <p>Screen Type: OLED</p>
+                <p>Colours: Grey, transparent, black, white, red, green, yellow, blue</p>
+            </div>
+        </section>
+
+        <!--added title to games section-->
+        <h3 class="product_title">Games</h3>
+        <!--id given for js -->
+        <section class="games" id="games">
+            <!--added two mario games to buy and short description-->
+            <div class="game1">
+                <!--class given for js -->
+                <div class="effect slide">
+                    <!--cited from: https://www.mariowiki.com/Super_Mario_Land_2:_6_Golden_Coins-->
+                    <img src="./img/game1.jpg" alt="Super Mario Land 6 Golden Coins">
+                </div>
+                <div class="effect slide">
+                    <!--cited from: https://www.mariowiki.com/Super_Mario_Land-->
+                    <img src="./img/game2.jpg" alt="Super Mario Land">
+                </div>
+            </div>
+            <div>
+                <p class="price">$69.99</p>
+                <p>Super Mario Land/6 Golden Rings</p>
+                <p>The well known platform style adventure game, featuring the infamous character Mario</p>
+                <!--added <a> as a buy button-->
+                <a href="#">Buy</a>
+            </div>
+            <!--added two Pokemon games to buy and short description-->
+            <div class="game2">
+                <div class="effect slide1">
+                    <!--cited from: https://bulbapedia.bulbagarden.net/wiki/Pokémon_Red_and_Blue_Versions-->
+                    <img src="./img/game3.png" alt="Pokemon Blue">
+                </div>
+                <div class="effect slide1">
+                    <!--cited from: https://bulbapedia.bulbagarden.net/wiki/Pokémon_Red_and_Blue_Versions-->
+                    <img src="./img/game4.png" alt="Pokemon Red">
+                </div>
+            </div>
+            <div>
+                <p class="price">$69.99</p>
+                <p>Pokemon Red/Blue</p>
+                <p>The well known turn based RPG adventure game. Set our on a journey to Catch'em all</p>
+                <!--added <a> as a buy button-->
+                <a href="#">Buy</a>
+            </div>
+        </section>
+    </main>
+    <!--added footer-->
+    <footer id="footer"></footer>
+    </body>
+</html>

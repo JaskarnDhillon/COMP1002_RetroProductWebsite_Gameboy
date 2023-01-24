@@ -1,0 +1,51 @@
+<!doctype html>
+    <html lang="en">
+        <head id="head">
+            <title>Nintendo Game Boy Remastered</title>
+            <meta name="description" content="The Nintendo Game Boy Remastered">
+            <!-- added jQuery Library-->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <!-- added js -->
+            <script src="./js/script.js"></script>
+        </head>
+        <body>
+            <!--added header-->
+            <header id="header"></header>
+            <main>
+                <div class="form_container">
+                    <!--form title-->
+                    <h5>Contact Us</h5>
+                    <!--added form-->
+                    <form action="somefile.php" method="post">
+                        <!--form icon added fontawesome-->
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <!--name field-->
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="text" required placeholder="Enter your name">
+                        </div>
+                        <!--tel field-->
+                        <div class="input-group">
+                            <label>Contact number</label>
+                            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="705-123-4567">
+                        </div>
+                        <!--email field-->
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" required placeholder="Enter Email">
+                        </div>
+                        <!--text area for message-->
+                        <div class="input-group">
+                            <label>Your Message</label>
+                            <textarea rows="3" required placeholder="Enter your message"></textarea>
+                        </div>
+                        <!--submit and reset buttons-->
+                        <input type="reset">
+                        <input type="submit" name="submit" value="Submit the form">
+                    </form>
+                </div>
+            </main>
+            <!--added footer-->
+            <footer id="footer"></footer>
+        </body>
+    </html>
